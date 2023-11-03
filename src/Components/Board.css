@@ -1,0 +1,27 @@
+.Board{
+    min-width: 250px;
+    max-height: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.board_top{
+    display: flex;
+}
+.board_top_title{
+    flex:1;
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+}
+.board_top_title span{
+    color: gray;
+}
+.board_cards{
+    background-color: aquamarine;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 10px;
+    border-radius: 10px;
+}
