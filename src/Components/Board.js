@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 import{MoreHorizontal} from 'react-feather'
 import './Board.css';
 function Board() {
@@ -10,8 +10,8 @@ function Board() {
                 </p>
             </div>
             <div className='board_cards'>
-                <h1>Card</h1>
-                <h1>Card2</h1>
+                <h1>Task1</h1>
+                <h1>Task2</h1>
             </div>
         </div>
     );
